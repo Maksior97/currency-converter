@@ -1,0 +1,17 @@
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: auto;
+}
+
+.container__issue {
+    font-size: xx-small;
+}
+
+.container__result {
+    text-align: center;
+}
+
+.container__total {
+    font-size: x-large;
+}
