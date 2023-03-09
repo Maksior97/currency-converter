@@ -18,12 +18,12 @@
 }
 
 .form__field:read-only {
-    background-color: rgba(137, 43, 226, 0.831);
+    background-color: rgba(137, 43, 226, 0.550);
     color: black;
 }
 
 .form__fieldset {
-    background-color: rgba(137, 43, 226, 0.150);
+    background-color: rgba(137, 43, 226, 0.780);
     border: 1px solid #060606;
     padding: 10px;
     border-radius: 10px;
