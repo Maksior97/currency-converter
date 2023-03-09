@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Przelicznik walut</title>
     <link rel="icon" href="images/192icon.png">
-    <meta property="og:image" content="images/share.png"> 
+    <meta property="og:image" content="images/share.png">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
@@ -20,29 +20,30 @@
     <script defer src="js/script.js"></script>
 </head>
 
-<body>
+<body class="body body__element">
     <div class="container">
-        <form class="js-form form">
-            <fieldset class="form__fieldset">
-                <legend class="form__legend">Przelicznik walut</legend>
-                <p>
-                    <label>
-                        <span class="form__labelText">
-                            Podaj kwotę (w euro)*:</span>
-                        <input class="js-sum form__field" type="number" placeholder="wpisz kwotę" required step="0.01">
-                    </label>
-                </p>
-                <p>
-                    <label>
-                        <span class="form__labelText">Kurs euro:*</span>
-                        <input class="js-currency form__field" value="4.71" readonly></label>
-                </p>
-                <p class="container__issue">*kurs waluty euro z dnia 3 marca 2023 r.</p>
+            <form class="js-form form">
+                <fieldset class="form__fieldset">
+                    <legend class="form__legend">Przelicznik walut</legend>
+                    <p>
+                        <label>
+                            <span class="form__labelText">
+                                Podaj kwotę (w euro)*:</span>
+                            <input class="js-sum form__field" type="number" placeholder="wpisz kwotę" required
+                                step="0.01">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span class="form__labelText">Kurs euro:*</span>
+                            <input class="js-currency form__field" value="4.71" readonly></label>
+                    </p>
+                    <p class="container__issue">*kurs waluty euro z dnia 3 marca 2023 r.</p>
 
-            </fieldset>
-        </form>
-        <p class="container__result">Kwota w polskich złotych (PLN): <strong
-                class="container__total js-total">0.00</strong></p>
+                </fieldset>
+            </form>
+            <p class="container__result">Kwota w polskich złotych (PLN): <strong
+                    class="container__total js-total">0.00</strong></p>
     </div>
 </body>
 

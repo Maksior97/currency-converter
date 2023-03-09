@@ -6,6 +6,13 @@ html {
     box-sizing: inherit
 };
 
-body {
+.body {
     font-family: "Playfair Display";
+}
+
+.body__element {
+    background-image: url("../images/backgorund.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
 }
