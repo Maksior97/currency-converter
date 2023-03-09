@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik walut</title>
+    <meta properity="og:image" content="images/share.png"> 
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form class="js-form form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Przelicznik walut</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Podaj kwotę (w euro)*:</span>
+                        <input class="js-sum form__field" type="number" placeholder="wpisz kwotę" required step="0.01">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">Kurs euro:*</span>
+                        <input class="js-currency form__field" value="4.71" readonly></label>
+                </p>
+                <p class="container__issue">*kurs waluty euro z dnia 3 marca 2023 r.</p>
+
+            </fieldset>
+        </form>
+        <p class="container__result">Kwota w polskich złotych (PLN): <strong
+                class="container__total js-total">0.00</strong></p>
+    </div>
+</body>
+
+</html>
