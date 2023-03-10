@@ -2,9 +2,9 @@
 
 
     const calculateTotal = (sum, currency) => {
-        const rateEUR = 4.71;
-        const rateDOL = 4.44;
-        const rateGBP = 5.12;
+        const rateEUR = 4.68;
+        const rateDOL = 4.40;
+        const rateGBP = 5.29;
 
         switch (currency) {
             case "EUR":
