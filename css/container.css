@@ -9,6 +9,8 @@
 }
 
 .container__result {
+    background-color: rgba(137, 43, 226, 0.800);
+    border: 1px solid #060606;
     text-align: center;
 }
 
