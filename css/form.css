@@ -27,7 +27,8 @@
     border: 1px solid #060606;
     padding: 10px;
     border-radius: 10px;
-    margin: 50% 5px;
+    margin-top: 50%;
+    margin: 5px;
 }
 
 .form__legend {
