@@ -1,6 +1,4 @@
 {
-
-
     const calculateTotal = (sum, currency) => {
         const rateEUR = 4.68;
         const rateDOL = 4.40;
