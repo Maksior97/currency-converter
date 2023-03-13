@@ -15,9 +15,10 @@
                 return sum * rateGBP;
         }
     };
+
     const formElement = document.querySelector(".js-form");
-        formElement.addEventListener("input", () => {
-            
+    formElement.addEventListener("input", () => {
+
         const sumElement = document.querySelector(".js-sum");
         const currencyElement = document.querySelector(".js-currency");
         const totalElement = document.querySelector(".js-total");
