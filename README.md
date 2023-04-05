@@ -1,10 +1,10 @@
 # currency-converter by Maks Chrapkowicz
 
-##Demo
+## Demo
 
 [Here](https://maksior97.github.io/currency-converter/) is demo.
 
-##Description
+## Description
 
 For my second project im doing a simple currency converter, that is converting selected currency to PLN. 
 The way it works is: you input any chosen amount that you want converted, and then select the currency from the list.
